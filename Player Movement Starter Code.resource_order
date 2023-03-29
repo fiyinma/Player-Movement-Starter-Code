@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
-    {"name":"player","order":10,"path":"folders/Sprites/player.yy",},
     {"name":"enemy","order":11,"path":"folders/Sprites/enemy.yy",},
+    {"name":"player","order":10,"path":"folders/Sprites/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_wall","order":2,"path":"sprites/spr_wall/spr_wall.yy",},
