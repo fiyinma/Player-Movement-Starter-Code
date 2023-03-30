@@ -1,12 +1,31 @@
 /// @description Core Player Lgoic
 
 //Get player inputs
-
+if (!disabled){
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 key_slide = keyboard_check_pressed(vk_control);
+}
 
+else
+{
+	key_left = 0
+	key_right = 0
+	key_jump = 0
+	key_slide = 0
+	
+}
+
+if (disabled){
+	obj_player.image_blend = c_gray;
+		
+}
+
+if (!disabled){
+	obj_player.image_blend = c_white;
+		
+}
 //Calc movoment horiz
 walljumpdelay = max(walljumpdelay-1,0);
 slidedelay = max(slidedelay-1,0);

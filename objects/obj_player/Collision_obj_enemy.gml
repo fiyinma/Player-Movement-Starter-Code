@@ -1,7 +1,19 @@
 /// @desc enemy collision
 
-if (slidedelay > 0)
+if (!disabled)
 {
-	instance_destroy(other);	
 	
+
+	if (slidedelay > 0)
+	{
+		instance_destroy(other);	
+	
+	}
+
+	else
+	{
+		disabled = true;
+		alarm[0] = room_speed * 2;
+	
+	}
 }
