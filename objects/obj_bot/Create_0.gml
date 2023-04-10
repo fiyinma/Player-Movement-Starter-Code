@@ -1,4 +1,4 @@
-/// @desc 
+/// @desc set basic variables
 
-vsp = 0;
-speed = 2;
+vsp = .5;
+count = 10;

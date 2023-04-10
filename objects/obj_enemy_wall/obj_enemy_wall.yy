@@ -1,12 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bot",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_enemy_wall","path":"objects/obj_enemy_wall/obj_enemy_wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "obj_enemy_wall",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -30,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bot",
-    "path": "sprites/spr_bot/spr_bot.yy",
+    "name": "spr_enemy_wall",
+    "path": "sprites/spr_enemy_wall/spr_enemy_wall.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
