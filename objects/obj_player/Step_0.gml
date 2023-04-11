@@ -1,6 +1,11 @@
 /// @description Core Player Logic
 
 //Get player inputs
+
+
+
+
+
 if (!disabled){
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
@@ -113,7 +118,7 @@ if (on_ground) {
 	currjumps = 0;
 }
 
-if key_jump && (currjumps < maxjumps) {
+if key_jump && (currjumps < maxjumps) && can_jump {
 	vsp = -jumpsp;
 	currjumps += 1;
 	slidedelay = 0;

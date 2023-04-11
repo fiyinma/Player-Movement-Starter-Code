@@ -35,3 +35,5 @@ slidestuck_spd = 1;
 slidestuck = false;
 
 disabled = false;
+hover = false;
+can_jump = true;

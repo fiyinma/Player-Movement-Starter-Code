@@ -1,4 +1,4 @@
-/// @desc 
+/// @desc makes bot move
 
 y += vsp;
 
